@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    background-color: #c7b299;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.responsive {
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+.columnL {
+    float: left;
+    padding: 15px 20px 15px 15px;
+    }
+.columnR {
+    float: right;
+    padding: 15px;
+    margin-top: 2%;
+    }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+.menu {
+    width: 25%;
+    }
+
+.content {
+    width: 100%;
+    color: #4e1a0c;
+    }
+
+.brown {
+    color: #4e1a0c;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #129fd3;           
+    }
+
+.menu li:hover {
+    background-color: #4e1a0c;
+    }
+
+.a1           {
+    text-decoration: none;
+    font-size: x-large;
+    color: #ffffff
+    }
+
+.a2 {
+        color: darkgray;
+        padding-right: 35px;
+    }  
+.a3 {
+    float: right;
+}
+.bkGround {
+    background-color:#816236;
+}
+a:hover {
+    color:rgb(218, 218, 218);
+}    
+     
+.footer {
+    background-color: #4e1a0c;
+    color: darkgrey;
+    padding: 15px;
+    }
+
+p {
+    font-size: medium;
+    font-weight: bold;
+    }
+.p5 {
+    font-size: x-large;
+    font-weight: bold;
+    }
+.p6 {
+    font-size: xx-large;
+    font-weight: bold;
+    }
+.softCorner {
+border-radius: 10px;
+}
+.zoom:hover {
+    transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.inLine {
+    display: inline-block;
+}
+
+.backGImg {
+    background-image: url(images/collage.jpg);
+}
+.pos2 {
+    position: absolute;
+    background-color: #c7b299;
+    opacity: 0.8;
+    z-index: 2;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
