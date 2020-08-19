@@ -120,3 +120,12 @@ border-radius: 10px;
 .styleNon {
     text-decoration: none;
 }
+/* @media screen and (max-width: 1000px) {
+    .display-container {
+        margin: auto 10px;
+    }
+
+    .content-text {
+        font-size: 2.5rem;
+    }
+} */
